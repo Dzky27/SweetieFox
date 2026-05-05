@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SweetieFox – Jasa Pembuatan Website UMKM</title>
+    <meta name="description" content="SweetieFox - Jasa pembuatan website profesional untuk UMKM Indonesia. Harga terjangkau, pengerjaan cepat, hasil berkualitas." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="assets/logo.png" alt="Loading" class="loader-fox" />
+            <div class="loader-bar">
+                <div class="loader-fill"></div>
+            </div>
+            <p>Memuat halaman...</p>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="assets/logo.png" alt="SweetieFox Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+                <div class="logo-fallback">
+                    <span class="logo-icon"></span>
+                    <span class="logo-text">Sweetie<span>Fox</span></span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#keunggulan">Keunggulan</a></li>
+                <li><a href="#paket">Paket</a></li>
+                <li><a href="#alur">Cara Kerja</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="https://wa.me/6289657769065" target="_blank" class="nav-cta">Hubungi Kami</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="paw-print p1">🐾</div>
+            <div class="paw-print p2">🐾</div>
+            <div class="paw-print p3">🐾</div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge reveal">✨ Terpercaya · Profesional · Terjangkau</div>
+                <h1 class="hero-title reveal">
+                    Solusi Website Profesional<br />
+                    <span class="gradient-text">untuk UMKM Go Digital</span>
+                </h1>
+                <p class="hero-subtitle reveal">
+                    Website cepat jadi, harga terjangkau, dan mudah dikelola.<br /> Tingkatkan penjualanmu dengan tampilan online yang memukau!
+                </p>
+                <div class="hero-btns reveal">
+                    <a href="https://wa.me/6289657769065?text=Halo%20SweetieFox!%20Saya%20ingin%20konsultasi%20gratis%20tentang%20pembuatan%20website." target="_blank" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Konsultasi Gratis
+                    </a>
+                    <a href="#paket" class="btn btn-outline">Lihat Paket <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-stats reveal">
+                    <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Website Dibuat</span></div>
+                    <div class="stat-divider"></div>
+                    <div class="stat"><span class="stat-num"> 7</span><span class="stat-label">Hari Pengerjaan</span></div>
+                    <div class="stat-divider"></div>
+                    <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Klien Puas</span></div>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="hero-card">
+                    <div class="hero-logo-wrap">
+                        <img src="assets/logo.png" alt="SweetieFox" class="hero-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
+                        <img src="assets/logo.png" alt="SweetieFox Fallback" class="hero-logo-fallback" />
+                    </div>
+                    <p class="hero-card-tagline">Jasa Pembuatan Website UMKM</p>
+                    <div class="hero-card-tags">
+                        <span>WordPress</span>
+                        <span>SEO Friendly</span>
+                        <span>Mobile Ready</span>
+                    </div>
+                </div>
+                <div class="floating-badge fb1">🚀 Go Digital!</div>
+                <div class="floating-badge fb2">💰 Harga Terjangkau</div>
+                <div class="floating-badge fb3">⚡ Cepat & Andal</div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path fill="#fff" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"/>
+      </svg>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual reveal">
+                    <div class="about-img-wrap">
+                        <img src="assets/logo.png" alt="SweetieFox" class="about-fox-emoji" />
+                        <div class="about-deco-circle c1"></div>
+                        <div class="about-deco-circle c2"></div>
+                    </div>
+                    <div class="about-card-small">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>Founder</strong>
+                            <p>Mahasiswa Teknik Informatika</p>
+                        </div>
+                    </div>
+                    <div class="about-card-small ac2">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <strong>Universitas Kuningan</strong>
+                            <p>Berpengalaman di bidang web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <div class="section-label">Tentang Kami</div>
+                    <h2 class="section-title">Kenapa Pilih <span class="gradient-text">SweetieFox?</span></h2>
+                    <p class="about-text">
+                        <strong>SweetieFox</strong> adalah jasa pembuatan website yang berdedikasi membantu pelaku UMKM Indonesia untuk go digital. Kami percaya setiap usaha kecil berhak tampil profesional di dunia online.
+                    </p>
+                    <p class="about-text">
+                        Didirikan oleh mahasiswa Teknik Informatika Universitas Kuningan yang passionate di bidang teknologi web, SweetieFox hadir sebagai solusi terjangkau namun berkualitas tinggi untuk UMKM yang belum memiliki kehadiran digital.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="fas fa-heart"></i></div>
+                            <div>
+                                <strong>Penuh Dedikasi</strong>
+                                <p>Kami merawat setiap proyek seperti bisnis kami sendiri</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="fas fa-code"></i></div>
+                            <div>
+                                <strong>Teknologi Modern</strong>
+                                <p>Website yang cepat, aman, dan ramah mesin pencari</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="keunggulan section" id="keunggulan">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Keunggulan Kami</div>
+                <h2 class="section-title">Apa yang Membuat Kami <span class="gradient-text">Berbeda?</span></h2>
+                <p class="section-subtitle">Kami bukan sekadar jasa website biasa – kami adalah mitra digital terpercaya UMKM Anda</p>
+            </div>
+            <div class="keunggulan-grid">
+                <div class="keunggulan-card reveal">
+                    <div class="k-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Harga Transparan</h3>
+                    <p>Tidak ada biaya tersembunyi. Semua harga tertera jelas dan bisa disesuaikan dengan kebutuhan Anda.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="k-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Pengerjaan Cepat</h3>
+                    <p>Website siap dalam 3–7 hari kerja. Kami menghargai waktu dan komitmen terhadap deadline.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="k-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Konsultasi Gratis</h3>
+                    <p>Diskusikan kebutuhan bisnis Anda tanpa biaya. Kami siap membantu memilih solusi terbaik.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="k-icon"><i class="fas fa-headset"></i></div>
+                    <h3>After-Sales Support</h3>
+                    <p>Kami tetap mendampingi setelah website selesai. Ada pertanyaan? Kami selalu siap membantu.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="k-icon"><i class="fab fa-wordpress"></i></div>
+                    <h3>Mudah Dikelola</h3>
+                    <p>Dibangun di atas WordPress sehingga Anda bisa update konten sendiri tanpa perlu coding.</p>
+                </div>
+                <div class="keunggulan-card reveal">
+                    <div class="k-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Responsive</h3>
+                    <p>Tampilan sempurna di semua perangkat – smartphone, tablet, maupun desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAKET LAYANAN -->
+    <section class="paket section" id="paket">
+        <div class="paket-bg-shapes">
+            <div class="ps1"></div>
+            <div class="ps2"></div>
+        </div>
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Paket Layanan</div>
+                <h2 class="section-title">Pilih Paket yang <span class="gradient-text">Sesuai Bisnismu</span></h2>
+                <p class="section-subtitle">Harga terjangkau dengan kualitas profesional. Semua paket sudah termasuk domain & hosting tahun pertama.</p>
+            </div>
+            <div class="paket-grid">
+                <!-- Starter -->
+                <div class="paket-card reveal">
+                    <div class="paket-badge">Mulai dari</div>
+                    <div class="paket-header">
+                        <div class="paket-icon">🌱</div>
+                        <h3>Starter</h3>
+                        <p class="paket-desc">Untuk bisnis yang baru memulai perjalanan digitalnya</p>
+                    </div>
+                    <div class="paket-price">
+                        <span class="price-currency">Rp</span>
+                        <span class="price-num">500.000</span>
+                    </div>
+                    <ul class="paket-features">
+                        <li><i class="fas fa-check"></i> 1 Halaman Website</li>
+                        <li><i class="fas fa-check"></i> Mobile Friendly</li>
+                        <li><i class="fas fa-check"></i> Form Kontak</li>
+                        <li><i class="fas fa-check"></i> Desain Custom</li>
+                        <li><i class="fas fa-check"></i> Domain .com (1 tahun)</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Katalog Produk</li>
+                        <li class="disabled"><i class="fas fa-times"></i> WhatsApp Integration</li>
+                    </ul>
+                    <a href="https://wa.me/6289657769065?text=Halo%20SweetieFox!%20Saya%20tertarik%20dengan%20Paket%20Starter%20Rp500.000" target="_blank" class="btn btn-outline-peach">Pesan Sekarang</a>
+                </div>
+
+                <!-- Bisnis (Highlight) -->
+                <div class="paket-card featured reveal">
+                    <div class="paket-badge popular">⭐ Terpopuler</div>
+                    <div class="paket-header">
+                        <div class="paket-icon">🚀</div>
+                        <h3>Bisnis</h3>
+                        <p class="paket-desc">Solusi lengkap untuk UMKM yang ingin tampil profesional</p>
+                    </div>
+                    <div class="paket-price">
+                        <span class="price-currency">Rp</span>
+                        <span class="price-num">1.500.000</span>
+                    </div>
+                    <ul class="paket-features">
+                        <li><i class="fas fa-check"></i> 5 Halaman Website</li>
+                        <li><i class="fas fa-check"></i> Mobile Friendly</li>
+                        <li><i class="fas fa-check"></i> Form Kontak</li>
+                        <li><i class="fas fa-check"></i> Katalog Produk</li>
+                        <li><i class="fas fa-check"></i> Integrasi WhatsApp</li>
+                        <li><i class="fas fa-check"></i> Domain .com (1 tahun)</li>
+                        <li><i class="fas fa-check"></i> SEO Dasar</li>
+                    </ul>
+                    <a href="https://wa.me/6289657769065?text=Halo%20SweetieFox!%20Saya%20tertarik%20dengan%20Paket%20Bisnis%20Rp1.500.000" target="_blank" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+
+                <!-- Premium -->
+                <div class="paket-card reveal">
+                    <div class="paket-badge">Terlengkap</div>
+                    <div class="paket-header">
+                        <div class="paket-icon">👑</div>
+                        <h3>Premium</h3>
+                        <p class="paket-desc">Untuk bisnis siap berjualan online penuh dengan e-commerce</p>
+                    </div>
+                    <div class="paket-price">
+                        <span class="price-currency">Rp</span>
+                        <span class="price-num">3.000.000</span>
+                    </div>
+                    <ul class="paket-features">
+                        <li><i class="fas fa-check"></i> E-commerce Lengkap</li>
+                        <li><i class="fas fa-check"></i> Keranjang Belanja</li>
+                        <li><i class="fas fa-check"></i> Manajemen Stok</li>
+                        <li><i class="fas fa-check"></i> Payment Gateway</li>
+                        <li><i class="fas fa-check"></i> WhatsApp Integration</li>
+                        <li><i class="fas fa-check"></i> Domain .com (1 tahun)</li>
+                        <li><i class="fas fa-check"></i> Support 6 Bulan</li>
+                    </ul>
+                    <a href="https://wa.me/6289657769065?text=Halo%20SweetieFox!%20Saya%20tertarik%20dengan%20Paket%20Premium%20Rp3.000.000" target="_blank" class="btn btn-outline-peach">Pesan Sekarang</a>
+                </div>
+            </div>
+            <p class="paket-note reveal">💬 Tidak menemukan paket yang cocok? <a href="https://wa.me/6289657769065" target="_blank">Hubungi kami</a> untuk paket custom!</p>
+        </div>
+    </section>
+
+    <!-- TARGET MARKET -->
+    <section class="target section" id="target">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Target Market</div>
+                <h2 class="section-title">Cocok untuk <span class="gradient-text">Bisnis Apa Saja?</span></h2>
+                <p class="section-subtitle">SweetieFox melayani berbagai jenis UMKM di Indonesia</p>
+            </div>
+            <div class="target-grid">
+                <div class="target-card reveal">
+                    <div class="target-icon">🍜</div>
+                    <h3>Kuliner</h3>
+                    <p>Restoran, warung makan, kafe, catering, dan bisnis makanan lainnya</p>
+                </div>
+                <div class="target-card reveal">
+                    <div class="target-icon">👗</div>
+                    <h3>Fashion</h3>
+                    <p>Butik, toko pakaian, aksesoris, hijab, dan fashion lokal</p>
+                </div>
+                <div class="target-card reveal">
+                    <div class="target-icon">🎨</div>
+                    <h3>Kerajinan</h3>
+                    <p>Handcraft, produk UMKM, souvenir, dan kerajinan tangan lokal</p>
+                </div>
+                <div class="target-card reveal">
+                    <div class="target-icon">🔧</div>
+                    <h3>Jasa</h3>
+                    <p>Salon, bengkel, laundry, les privat, dan berbagai usaha jasa</p>
+                </div>
+                <div class="target-card reveal">
+                    <div class="target-icon">🏪</div>
+                    <h3>Toko</h3>
+                    <p>Toko kelontong, minimarket, toko alat tulis, dan retail lainnya</p>
+                </div>
+                <div class="target-card reveal">
+                    <div class="target-icon">💼</div>
+                    <h3>Profesi</h3>
+                    <p>Freelancer, konsultan, fotografer, dan profesional mandiri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALUR PEMESANAN -->
+    <section class="alur section" id="alur">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Cara Kerja</div>
+                <h2 class="section-title">Proses Pembuatan Website <span class="gradient-text">yang Mudah</span></h2>
+                <p class="section-subtitle">Hanya 8 langkah sederhana menuju website impian Anda</p>
+            </div>
+            <div class="alur-timeline">
+                <div class="alur-item reveal">
+                    <div class="alur-num">1</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fab fa-whatsapp"></i></div>
+                        <h4>Hubungi WhatsApp</h4>
+                        <p>Kirim pesan ke WhatsApp kami untuk memulai perjalanan digitalmu</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">2</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-comments"></i></div>
+                        <h4>Konsultasi</h4>
+                        <p>Diskusikan kebutuhan dan tujuan website bisnis Anda bersama kami</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">3</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-list-check"></i></div>
+                        <h4>Pilih Paket</h4>
+                        <p>Tentukan paket yang sesuai dengan kebutuhan dan budget Anda</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">4</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-credit-card"></i></div>
+                        <h4>Bayar DP</h4>
+                        <p>Lakukan pembayaran uang muka sebesar 50% untuk memulai pengerjaan</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">5</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h4>Pengerjaan 3–7 Hari</h4>
+                        <p>Tim kami mengerjakan website Anda dengan penuh dedikasi dan profesional</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">6</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-rotate-left"></i></div>
+                        <h4>Revisi</h4>
+                        <p>Anda berhak melakukan revisi hingga website sesuai dengan keinginan</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">7</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-circle-check"></i></div>
+                        <h4>Selesai & Launch</h4>
+                        <p>Website Anda live! Bayar sisa pelunasan dan website siap digunakan</p>
+                    </div>
+                </div>
+                <div class="alur-item reveal">
+                    <div class="alur-num">8</div>
+                    <div class="alur-content">
+                        <div class="alur-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h4>Training</h4>
+                        <p>Kami ajarkan cara mengelola website Anda sendiri dengan mudah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimoni section" id="testimoni">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Testimoni</div>
+                <h2 class="section-title">Apa Kata <span class="gradient-text">Klien Kami?</span></h2>
+                <p class="section-subtitle">Kepuasan klien adalah prioritas utama kami</p>
+            </div>
+            <div class="testi-grid">
+                <div class="testi-card reveal">
+                    <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testi-text">"Sangat puas dengan hasilnya! Website warung makan saya jadi kelihatan profesional banget. Sekarang banyak pelanggan baru yang tahu dari website. Proses pengerjaan juga cepat hanya 5 hari!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">🍜</div>
+                        <div>
+                            <strong>Bu Sari Wulandari</strong>
+                            <span>Pemilik Warung Makan Sari</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card reveal">
+                    <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testi-text">"SweetieFox luar biasa! Toko fashion saya sekarang punya website yang keren dan mudah diupdate sendiri. Harganya sangat terjangkau dan pelayanannya ramah banget. Recommended!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">👗</div>
+                        <div>
+                            <strong>Dinda Pratiwi</strong>
+                            <span>Owner Butik Dinda Collection</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card reveal">
+                    <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testi-text">"Awalnya ragu karena budget terbatas, tapi ternyata dengan paket Bisnis sudah sangat lengkap. Website kerajinan tangan saya jadi bisa menerima pesanan online. Terima kasih SweetieFox!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">🎨</div>
+                        <div>
+                            <strong>Pak Budi Santoso</strong>
+                            <span>Pengrajin Batik Tulis Budi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card reveal">
+                    <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testi-text">"Konsultasinya gratis dan tim SweetieFox sabar banget menjelaskan. Website salon saya sekarang sering dapat booking online. Omzet naik signifikan setelah go digital!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">💇</div>
+                        <div>
+                            <strong>Mbak Rini Anggraeni</strong>
+                            <span>Pemilik Salon Cantik Rini</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card reveal">
+                    <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testi-text">"Paket Premium worth it banget! Toko online saya sekarang bisa terima pembayaran digital. Fitur manajemen stoknya mudah dipake bahkan buat yang gaptek sekalipun. 10/10!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">🏪</div>
+                        <div>
+                            <strong>Mas Arif Hidayat</strong>
+                            <span>Owner Toko Online Arif Store</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section section" id="cta">
+        <div class="cta-bg">
+            <div class="cta-shape c1"></div>
+            <div class="cta-shape c2"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content reveal">
+                <img src="assets/logo.png" alt="SweetieFox" class="cta-emoji" />
+                <h2>Mulai Digitalisasi<br /><span class="gradient-text-light">Bisnismu Sekarang!</span></h2>
+                <p>Jangan biarkan pesaingmu lebih dulu go digital. Bersama SweetieFox, website impianmu bisa jadi kenyataan dalam hitungan hari!</p>
+                <div class="cta-btns">
+                    <a href="https://wa.me/6289657769065?text=Halo%20SweetieFox!%20Saya%20mau%20konsultasi%20gratis%20pembuatan%20website." target="_blank" class="btn btn-white">
+                        <i class="fab fa-whatsapp"></i> Chat WhatsApp Sekarang
+                    </a>
+                    <a href="#paket" class="btn btn-outline-white">Lihat Paket Kami</a>
+                </div>
+                <p class="cta-note">💬 Respon cepat · 🎁 Konsultasi gratis · ⚡ Langsung mulai pengerjaan</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="SweetieFox" class="footer-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+                        <div class="footer-logo-fallback">
+                            <span>🦊</span>
+                            <span class="logo-text">Sweetie<span>Fox</span></span>
+                        </div>
+                    </div>
+                    <p>Jasa pembuatan website profesional untuk UMKM Indonesia. Wujudkan impian digitalmu bersama kami.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/6289657769065" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#keunggulan">Keunggulan</a></li>
+                        <li><a href="#paket">Paket Layanan</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#">Website UMKM</a></li>
+                        <li><a href="#">Toko Online</a></li>
+                        <li><a href="#">Landing Page</a></li>
+                        <li><a href="#">Company Profile</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/6289657769065" target="_blank">+62 896-5776-9065</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:dzakyerkun@gmail.com">dzakyerkun@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kuningan, Jawa Barat, Indonesia</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Senin – Sabtu, 08.00 – 21.00 WIB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 <strong>SweetieFox</strong>. All rights reserved. Made with <span class="heart">❤️</span> for UMKM Indonesia.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WA BUTTON -->
+    <a href="https://wa.me/6289657769065?text=Halo%20SweetieFox!%20Saya%20ingin%20konsultasi%20gratis." target="_blank" class="wa-float" id="waFloat" aria-label="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="wa-tooltip">Chat Kami!</span>
+        <div class="wa-pulse"></div>
+    </a>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
